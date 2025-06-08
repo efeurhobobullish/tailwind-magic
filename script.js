@@ -34,7 +34,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   outputBox.classList.add('hidden');
 
   try {
-    const res = await fetch("http://localhost:5000/generate", {
+    const res = await fetch("https://empire-ui-nkrz.onrender.com/generate", {
       method: "POST",
       body: formData,
     });
