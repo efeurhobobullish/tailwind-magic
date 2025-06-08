@@ -34,7 +34,7 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   outputBox.classList.add('hidden');
 
   try {
-    const res = await fetch("https://empire-ui-eee4.onrender.com/generate", {
+    const res = await fetch("https://empire-ui-51b6.onrender.com/generate", {
       method: "POST",
       body: formData,
     });
